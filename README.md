@@ -144,6 +144,12 @@ sudo lsof -i :3100    # find what's using Loki port
 sudo lsof -i :8000    # find what's using Django port
 
 7. Quick Reference
+
+
+ 
+ # start minikube 
+ minikube start
+ 
 Start Everything
 # Terminal 1
 kubectl port-forward -n monitoring svc/monitoring-kube-prometheus-prometheus 9090:9090
